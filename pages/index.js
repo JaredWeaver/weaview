@@ -1,18 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Navbar from '../components/Navbar';
+import Jumbo from '../components/Jumbo';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>weaview</title>
-        <meta name="description" content="Create viewlists for movies and tv shows to share with other users." />
+        <meta
+          name="description"
+          content="Create viewlists for movies and tv shows to share with other users."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-     
-    
-    </div>
-  )
+      <Navbar />
+      <Jumbo />
+    </>
+  );
 }
