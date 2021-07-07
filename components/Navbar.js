@@ -4,20 +4,20 @@ import Link from 'next/link';
 const NavContainer = styled.nav`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
   background-color: #000;
 `;
 
 const NavLogo = styled.a`
   font-size: 5vw;
-  padding: 0rem 2rem;
+  padding: 0 20px;
 `;
 
 const NavLink = styled.a`
   font-size: 2vw;
-  padding: 0rem 2rem;
+  padding: 0 20px;
 `;
 
 const Navbar = () => {
