@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Jumbo from '../components/Jumbo';
 
-export default function Home() {
+export default function Signup() {
   return (
     <>
       <Head>
@@ -14,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Jumbo />
     </>
   );
 }

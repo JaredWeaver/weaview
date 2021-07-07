@@ -26,7 +26,7 @@ const Navbar = () => {
       <NavContainer>
         <div>
           <Link href="/" passHref>
-            <NavLogo>weaView</NavLogo>
+            <NavLogo>WeView</NavLogo>
           </Link>
         </div>
         <div>
