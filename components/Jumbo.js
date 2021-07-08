@@ -9,7 +9,7 @@ const JumboContainer = styled.div`
   padding: 2rem;
   video {
     position: relative;
-    border: 2px solid #ff00ff;
+    border: 2px solid #915f6d;
     height: 80vh;
     opacity: 0.7;
     object-fit: cover;
@@ -24,7 +24,7 @@ const OverlayText = styled.div`
   h3{
     text-align:center;
     font-size: 4vw;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #915f6d;
   }
 `;
 
