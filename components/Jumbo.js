@@ -20,10 +20,12 @@ const JumboContainer = styled.div`
 
 const OverlayText = styled.div`
   position: absolute;
+  top: -60px;
   z-index: 9999999;
   h3{
+    padding: 3rem;
     text-align:center;
-    font-size: 4vw;
+    font-size: 3rem;
     text-shadow: 2px 2px #915f6d;
   }
 `;
@@ -36,7 +38,7 @@ const Jumbo = () => {
           <source src="/tv.mp4" type="video/mp4" />
         </video>
         <OverlayText>
-        <h3>Follow what other<br></br>households are watching</h3>
+        <h3>Follow what tv shows and movies<br></br>other households are streaming</h3>
         </OverlayText>
       </JumboContainer>
     </div>
