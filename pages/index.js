@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WeView</title>
+        <title>weView</title>
         <meta
           name="description"
           content="Create viewlists for movies and tv shows to share with other users."
