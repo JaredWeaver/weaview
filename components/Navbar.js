@@ -6,8 +6,9 @@ const NavContainer = styled.nav`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 15vh;
+  height: fit-content;
   background-color: #000;
+  overflow:hidden ;
 `;
 
 const NavLogo = styled.a`
@@ -38,6 +39,9 @@ const Navbar = () => {
           </Link>
           <Link href="/login" passHref>
             <NavLink>Login</NavLink>
+          </Link>
+          <Link href="/dashboard" passHref>
+            <NavLink>Dashboard</NavLink>
           </Link>
         </div>
       </NavContainer>

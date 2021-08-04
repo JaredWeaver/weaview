@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import Jumbo from '../components/Jumbo';
 
 export default function Signup() {
   return (
