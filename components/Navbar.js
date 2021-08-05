@@ -40,8 +40,8 @@ const Navbar = () => {
           <Link href="/login" passHref>
             <NavLink>Login</NavLink>
           </Link>
-          <Link href="/dashboard" passHref>
-            <NavLink>Dashboard</NavLink>
+          <Link href="/my-streams" passHref>
+            <NavLink>My Streams</NavLink>
           </Link>
         </div>
       </NavContainer>

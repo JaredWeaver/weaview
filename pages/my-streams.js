@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const MyStreamsContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ export async function getServerSideProps() {
   }
 }
 
-export default function Dashboard() {
+export default function MyStreams() {
   return (
     <>
       <Head>
@@ -37,6 +37,9 @@ export default function Dashboard() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <MyStreamsContainer>
+        
+      </MyStreamsContainer>
       <Footer />
     </>
   );
