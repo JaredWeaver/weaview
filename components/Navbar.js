@@ -7,7 +7,7 @@ const NavContainer = styled.nav`
   justify-content: space-evenly;
   align-items: center;
   height: fit-content;
-  background-color: #000;
+  background-color: #111111;
   overflow:hidden ;
 `;
 
@@ -27,7 +27,7 @@ const Navbar = () => {
       <NavContainer>
         <div>
           <Link href="/" passHref>
-            <NavLogo>WeView</NavLogo>
+            <NavLogo className="logo">WeView</NavLogo>
           </Link>
         </div>
         <div>
