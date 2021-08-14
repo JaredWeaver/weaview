@@ -10,7 +10,7 @@ import {
 const Container = styled.div`
   flex: 1;
   width: 100%;
-  border-bottom: 1px #ffdae0 solid;
+  border-bottom: 1px #FF6347 solid;
 `;
 
 const FooterContainer = styled.footer`
@@ -19,7 +19,7 @@ const FooterContainer = styled.footer`
   flex-direction: column;
   height: auto;
   bottom: 0px;
-  background: linear-gradient(to bottom, #000000 0%, #915f6d 100%);
+  background: linear-gradient(to bottom, #000000 0%, #FF6347 100%);
 `;
 
 const FootSection = styled.section`
