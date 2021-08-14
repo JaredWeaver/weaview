@@ -8,7 +8,6 @@ const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 95%;
   height: auto;
   padding: 2rem;
 `;

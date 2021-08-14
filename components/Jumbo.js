@@ -26,7 +26,7 @@ const OverlayText = styled.div`
     padding: 3rem;
     text-align:center;
     font-size: 3rem;
-    text-shadow: 2px 2px #915f6d;
+    text-shadow: 2px 2px #8059D5;
   }
 `;
 

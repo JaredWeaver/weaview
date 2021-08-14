@@ -6,8 +6,8 @@ body {
     background-color: #111111;
     min-height: 100vh;
     color: #ffdae0;
-    /* display: flex; */
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 h1,
@@ -35,12 +35,14 @@ ul {
 }
 
 .logo {
-    font-family: 'Bangers', cursive;
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Gugi', cursive;
+    color: #FF6347;
 }
 
 
-/* color vars 4 
-#fe881b
-#ff4d81
-#c433fa
+/* color vars 5
+#FF6347
+#8059D5
+#41C7BE
 */
