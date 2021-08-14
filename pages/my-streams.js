@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import StreamListContainer from '../components/StreamListContainer';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,11 +26,12 @@ export async function getServerSideProps() {
   }
 }
 
-export default function Dashboard() {
+export default function MyStreams({data}) {
+  console.log('???', data);
   return (
     <>
       <Head>
-        <title>WeView | Dash</title>
+        <title>WeView | Streams</title>
         <meta
           name="description"
           content="Create viewlists for movies and tv shows to share with other users."
@@ -37,6 +39,11 @@ export default function Dashboard() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Container>
+        <StreamListContainer
+          title="Currently Streaming"
+          streams={data.results} />
+      </Container>
       <Footer />
     </>
   );
